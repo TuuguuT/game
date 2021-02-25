@@ -7,7 +7,7 @@
 section {
   height: 100vh;
   background-color: #474b4f;
-  font-family: sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .score {
@@ -16,16 +16,17 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #222629;
 }
 
 .score h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .score p {
   text-align: center;
   padding: 10px;
-  font-size: 25px;
+  font-size: 45px;
 }
 
 .intro {
