@@ -13,7 +13,10 @@ const game = () => {
       introScreen.classList.add("fadeOut");
       match.classList.add("fadeIn");
     });
+
     refreshBtn.addEventListener("click", () => {
+      // introScreen.classList.add("fadeIn");
+      // match.classList.add("fadeOut");
       const newGameSound = (function () {
         const newGameSound = document.querySelector(".new-game-sound");
         newGameSound.play();
