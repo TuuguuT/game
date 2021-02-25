@@ -41,7 +41,6 @@ section {
 
 .intro h1 {
   font-size: 50px;
-  color: #5cdb95;
 }
 
 .intro button,
@@ -57,7 +56,10 @@ section {
   margin-right: 5px;
   cursor: pointer;
 }
-
+.intro img {
+  width: 200px;
+  border-radius: 50%;
+}
 .new-game button {
   margin-top: 100px;
   background-color: #b39bc8;
