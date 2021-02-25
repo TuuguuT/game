@@ -57,8 +57,7 @@ section {
   cursor: pointer;
 }
 .intro img {
-  width: 200px;
-  border-radius: 50%;
+  width: 300px;
 }
 .new-game button {
   margin-top: 100px;
