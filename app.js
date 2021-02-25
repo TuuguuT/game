@@ -14,7 +14,13 @@ const game = () => {
       match.classList.add("fadeIn");
     });
     refreshBtn.addEventListener("click", () => {
-      location.reload();
+      const newGameSound = (function () {
+        const newGameSound = document.querySelector(".new-game-sound");
+        newGameSound.play();
+      })();
+      setTimeout(function () {
+        location.reload();
+      }, 1500);
     });
   };
 
@@ -59,6 +65,7 @@ const game = () => {
     const sound = document.querySelector(".play-sound");
     sound.play();
   };
+
   const updateScore = () => {
     const playerScore = document.querySelector(".player-score p");
     const computerScore = document.querySelector(".computer-score p");
