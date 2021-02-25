@@ -11,7 +11,7 @@ section {
 }
 
 .score {
-  color: #86c232;
+  color: #ee4c7c;
   height: 20vh;
   display: flex;
   justify-content: space-around;
@@ -25,7 +25,7 @@ section {
 .score p {
   text-align: center;
   padding: 10px;
-  font-size: 25px;
+  font-size: 50px;
 }
 
 .intro {
