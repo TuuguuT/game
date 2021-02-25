@@ -7,12 +7,17 @@ const game = () => {
     const playBtn = document.querySelector(".intro button");
     const introScreen = document.querySelector(".intro");
     const match = document.querySelector(".match");
+    const refreshBtn = document.querySelector(".new-game button");
 
     playBtn.addEventListener("click", () => {
       introScreen.classList.add("fadeOut");
       match.classList.add("fadeIn");
     });
+    refreshBtn.addEventListener("click", () => {
+      location.reload();
+    });
   };
+
   //Play Match
   const playMatch = () => {
     const options = document.querySelectorAll(".options button");
@@ -49,6 +54,7 @@ const game = () => {
       });
     });
   };
+
   const playSound = () => {
     const sound = document.querySelector(".play-sound");
     sound.play();
