@@ -63,6 +63,7 @@ const game = () => {
   const compareHands = (playerChoice, computerChoice) => {
     //Update Text
     const winner = document.querySelector(".winner");
+    console.log(winner);
     //Checking for a tie
     if (playerChoice === computerChoice) {
       winner.textContent = "Тэнцлээ";
